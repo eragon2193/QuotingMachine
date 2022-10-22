@@ -18,7 +18,7 @@ export function TwitterButton(props) {
   }
   return (
     <div style={colorTransitionbg} id="twitter" className="twitterbtn">
-      <a target="_blank" id="tweet-quote" href="twitter.com/intent/tweet">
+      <a target="_blank" id="tweet-quote" href="twitter.com/intent/tweet" data-text={props.text[0] + '    ' + props.text[1]}>
         <img  id="twitter-logo" src={TwitterLogo} alt="svg as an icon" />
       </a>
     </div>
