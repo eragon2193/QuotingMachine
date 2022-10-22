@@ -44,7 +44,7 @@ export function QuoteBox () {
         <AuthorText color={color} text={quote[1]}/>
       </div>
       <div id="buttons">
-        <TwitterButton color={color} />
+        <TwitterButton text={quote} color={color} />
         <NewButton color={color} func={UpdateButton} />
       </div>
     </div>
