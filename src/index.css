@@ -23,7 +23,7 @@ code {
   height:600px;
   background-color: beige;
   margin: auto auto;
-  margin-top: 100px;
+  margin-top: 125px;
   display:flex;
   flex-direction: column;
   justify-content:center;
@@ -49,6 +49,7 @@ code {
 }
 #buttons{
   height:60px;
+  border: none;
 }
 #twitter {
   height:60px;
