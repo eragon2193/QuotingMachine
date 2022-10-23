@@ -1,7 +1,7 @@
 import React, {useState, useEffect}from 'react';
 import {TwitterButton, NewButton, AuthorText, QuoteText} from './smallElements.js'
 
-document.body.style.transition ="500ms linear"
+document.body.style.transition = '500ms linear'
 //"https://api.quotable.io/random"
 export function QuoteBox () {
 
