@@ -1,7 +1,7 @@
 {
   "main.css": "/QuotingMachine/static/css/main.4438daec.chunk.css",
-  "main.js": "/QuotingMachine/static/js/main.cefd9798.chunk.js",
-  "main.js.map": "/QuotingMachine/static/js/main.cefd9798.chunk.js.map",
+  "main.js": "/QuotingMachine/static/js/main.aed1d340.chunk.js",
+  "main.js.map": "/QuotingMachine/static/js/main.aed1d340.chunk.js.map",
   "static/css/1.d1696ef6.chunk.css": "/QuotingMachine/static/css/1.d1696ef6.chunk.css",
   "static/js/1.86554914.chunk.js": "/QuotingMachine/static/js/1.86554914.chunk.js",
   "static/js/1.86554914.chunk.js.map": "/QuotingMachine/static/js/1.86554914.chunk.js.map",
@@ -11,6 +11,6 @@
   "static/css/main.4438daec.chunk.css.map": "/QuotingMachine/static/css/main.4438daec.chunk.css.map",
   "static/css/1.d1696ef6.chunk.css.map": "/QuotingMachine/static/css/1.d1696ef6.chunk.css.map",
   "index.html": "/QuotingMachine/index.html",
-  "precache-manifest.d169dcbe13a00772614ce57f9eb99a55.js": "/QuotingMachine/precache-manifest.d169dcbe13a00772614ce57f9eb99a55.js",
+  "precache-manifest.3a05cff8170b7e2a322f483385b28cab.js": "/QuotingMachine/precache-manifest.3a05cff8170b7e2a322f483385b28cab.js",
   "service-worker.js": "/QuotingMachine/service-worker.js"
 }
