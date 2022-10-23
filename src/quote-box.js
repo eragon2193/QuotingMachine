@@ -19,11 +19,13 @@ export function QuoteBox () {
     document.body.style.backgroundColor = 'rgb('+ num1+ ',' + num2+ ',' + num3 +')'
     setColor('rgb('+ num1+ ',' + num2+ ',' + num3 +')')
   }
+
   useEffect(() =>{
     getHexaNumber();
+    fetchQuote();
   }, [])
+
   const fetchQuote = async () => {
-    
     const response = await fetch("https://api.quotable.io/random")
     const data = await response.json();
     if(response.ok)
@@ -31,9 +33,6 @@ export function QuoteBox () {
       setQuote([data.content, data.author]);
     }
   }
-  useEffect(() =>{
-    fetchQuote();
-  }, [])
 
     return(
 <div id="wrapper">
