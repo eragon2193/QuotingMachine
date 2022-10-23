@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2d9d501fe21e27df1e86",
-    "url": "/QuotingMachine/static/css/main.9239bdf3.chunk.css"
+    "revision": "cefd97988a1c96b3d026",
+    "url": "/QuotingMachine/static/css/main.4438daec.chunk.css"
   },
   {
-    "revision": "2d9d501fe21e27df1e86",
-    "url": "/QuotingMachine/static/js/main.2d9d501f.chunk.js"
+    "revision": "cefd97988a1c96b3d026",
+    "url": "/QuotingMachine/static/js/main.cefd9798.chunk.js"
   },
   {
     "revision": "86554914986e5723be73",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/QuotingMachine/static/media/twitter.6a78298d.svg"
   },
   {
-    "revision": "d9b64f5031d142edb6556c2493529feb",
+    "revision": "53181b6858887be9720c106bf6e246a2",
     "url": "/QuotingMachine/index.html"
   }
 ];
