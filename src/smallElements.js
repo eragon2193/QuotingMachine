@@ -7,7 +7,7 @@ export function NewButton(props) {
     transition: "500ms linear"
   }
   return (
-  <button style={colorTransitionbg}type="button" onClick={props.func} className="btn btn-primary">New Quote</button>
+  <button id="new-quote"style={colorTransitionbg}type="button" onClick={props.func} className="btn btn-primary">New Quote</button>
     )
 }
 
@@ -18,7 +18,12 @@ export function TwitterButton(props) {
   }
   return (
     <div style={colorTransitionbg} id="twitter" className="twitterbtn">
-      <a target="_blank" rel="noopener noreferrer" id="tweet-quote" href={`https://twitter.com/intent/tweet?text="${props.text[0] + '"    ' + props.text[1]}`}>
+      <a 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        id="tweet-quote" 
+        href={`https://twitter.com/intent/tweet?text="${props.text[0] + '"    ' + props.text[1]}`}
+      >
         <img  id="twitter-logo" src={TwitterLogo} alt="svg as an icon" />
       </a>
     </div>
